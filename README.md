@@ -7,7 +7,7 @@ kouhei-portfolio
 レスポンシブにも対応していますので、スマホでもご覧ください。
 
 # URL  
-http://localhost/portfolio_finish/portfolio.html  
+https://kouhei-portfolio.herokuapp.com/portfolio.html
 
 # 使用技術  
 HTML5  
