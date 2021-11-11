@@ -1,4 +1,5 @@
-# kouhei-portfolio    
+# タイトル  
+kouhei-portfolio    
 
 # 概要  
 私がTECH I.S.に入校して学んできたことをまとめたポートフォリオサイトです。  
@@ -13,11 +14,11 @@ HTML5
 CSS3  
 Javascript  
 jQuery  
--progressbar.js
--Modaal.js
--jQuery Scrollify
--slick.js
--aos.js
+-progressbar.js  
+-Modaal.js  
+-jQuery Scrollify  
+-slick.js  
+-aos.js  
 
 # プロフィール  
 名前 | 年齢 | 出身地
