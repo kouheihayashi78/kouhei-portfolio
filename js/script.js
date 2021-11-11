@@ -187,6 +187,10 @@ $('.menu-toggle').on('click', function () {
 
 });
 
+$(body).on('load', function () {
+
+});
+
 /* スムーズスクロール */
 $(function () {
 	$('.js-scroll-trigger').click(function () {
