@@ -1,0 +1,426 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>林のポートフォリオサイト</title>
+    <meta name="description" content="林のポートフォリオサイトです">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <!--============= icon ===============-->
+    <link rel="icon" href="/portfolio_finish/img/profile.png">
+
+    <!--==============フォントを読み込み===============-->
+    <link href="https://fonts.googleapis.com/css?family=Baskervville%7CLa+Belle+Aurore&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <!--==============CSSを読み込み===============-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.css">
+    <!--モーダル-->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!--自作のCSS-->
+    <link rel="stylesheet" type="text/css" href="css/parts.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+
+<body>
+    <div id="splash">
+        <div id="splash_text"></div>
+        <div class="loader_cover loader_cover-up"></div>
+        <div class="loader_cover loader_cover-down"></div>
+    </div>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#">Top</a> </li>
+            <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#about">About</a> </li>
+            <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#box2">Works</a> </li>
+            <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#box3">Skill</a> </li>
+            <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#contact">Contact</a> </li>
+        </ul>
+    </nav>
+
+    <header id="header">
+        <div id="slider">
+            <div class="heading-block">
+                <h1 class="blurTrigger">KOUHEI HAYASHI</h1>
+                <p class="blurTrigger">ENGINEAR</p>
+            </div>
+
+            <nav>
+                <a class="menu-toggle rounded-circle">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </nav>
+
+            <div id="top-header-deco" class="top-header__deco"></div>
+        </div>
+    </header>
+    <main>
+        <section id="box1" class="box" data-section-name="About">
+            <div class="box-area">
+                <div class="about" id="about">
+                    <h2 class="TextAnime">About</h2>
+
+                    <div class="person">
+                        <a href="profile.html">
+                            <img src="img/profile_illustration.png" alt="" data-aos-duration="1000"
+                                data-aos="fade-down-right">
+                        </a>
+
+                        <div class="names" data-aos-duration="1000" data-aos="fade-down-left">
+                            <div class="contents">
+                                <ul>
+                                    <li>名前：林 航平</li>
+                                    <li>生年月日：１９９６年７月８日生まれ</li>
+                                    <li>出身：広島県東広島市</li>
+                                </ul>
+                            </div>
+                            <div class="contents">
+                                <ul>
+                                    <li>2019年 広島県内の大学を卒業</li>
+                                    <li>2021年3月 メンズ脱毛会社退職</li>
+                                    <li>2021年4月 TECH I.S.に入校する</li>
+                                    <li>現在,TECH I.S.にてプログラミングを勉強中</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="profile.html" class="gradient4 blurTrigger">もっと詳しく見る</a>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="box2" class="box" data-section-name="work">
+            <div class="box-area">
+                <h2 class="picup TextAnime">Work</h2>
+                <ul class="slider_width">
+                    <li><a href="#gallery1" class="gallery btn-view2" data-group="gallery">
+                        <img src='img/portfolio.png' alt=""></a>
+                    </li>
+                    <li><a href="#gallery2" class="gallery btn-view2" data-group="gallery">
+                        <img src='img/twitterclone.png' alt=""></a>
+                    </li>
+                    <li><a href='#gallery3' class="gallery btn-view2" data-group="gallery">
+                        <img src='img/todo_laravel.png' alt=""></a>
+                    </li>
+                    <li><a href='#gallery4' class="gallery btn-view2" data-group="gallery">
+                        <img src='img/laravel_project.png' alt=""></a>
+                    </li>
+                    <li><a href='#gallery5' class="gallery btn-view2" data-group="gallery">
+                        <img src='img/management.png' alt=""></a>
+                    </li>
+                    <li><a href='#gallery6' class="gallery btn-view2" data-group="gallery">
+                        <img src='img/instagram2.png' alt=""></a>
+                    </li>
+                    <li><a href='#gallery7' class="gallery btn-view2" data-group="gallery">
+                        <img src='img/mercari.png' alt=""></a>
+                    </li>
+                    <li><a href='#gallery8' class="gallery btn-view2" data-group="gallery">
+                        <img src='img/team.png' alt=""></a>
+                    </li>
+                </ul>
+            </div>
+
+            <section id="gallery1" class="hide-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <h1>ポートフォリオ</h1>
+                            <p>このWebサイトです。<br>
+                                テックアイエスカラーの優しい緑色を随所に使用しました。<br>
+                                見た目はシンプルでありながら、jQueryや様々なライブラリを使用して動きを持たせることで、ユーザビリティーの高さを維持しながら飽きのこないWebページを作成できたと自負しております。
+                                レスポンシブにも対応しております。
+                            </p>
+                            <div class="icon">
+                                <a href="https://github.com/kouheihayashi78/TwitterClone" target="_blank"
+                                    rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <img src='img/portfolio2.png' alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="gallery2" class="hide-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <h1>TwitterClone</h1>
+                            <p>TECH I.S.の応用課題で制作したWebアプリケーションです。<br>
+                                基礎で学んだものを全て使って制作しました。<br>
+                                Twitterと同じように、投稿機能を実装し、ユーザーフォローや投稿にいいね！もできます。
+                                このアプリケーションを作成し、基礎的な考え方をしっかり身につけることができました。
+                            </p>
+                            <div class="icon">
+                                <a href="http://153.126.161.154/TwitterClone/Controllers/sign-in.php" target="_blank"
+                                    rel="noopener"><i class="fas fa-desktop"></i> テスト</a>
+                                <br>
+                                <a href="https://github.com/kouheihayashi78/TwitterClone" target="_blank"
+                                    rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <img src='img/twitterclone_home.png' alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="gallery3" class="hide-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <h1>Todoリスト</h1>
+                            <p>TECH I.S.のLaravel課題で制作したWebアプリケーションです。<br>
+                                Laravelに初めて触れ、PHPの書き方との違いに最初は困惑しながら作成しました。<br>
+                                Laravelの基礎的な部分であるルーティングの設定、bladeファイルの使い方などを学ぶことができました。
+                            </p>
+                            <div class="icon">
+                                
+                                <a href="https://github.com/kouheihayashi78/todo_larabel" target="_blank"
+                                    rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <img src='img/todo_laravel.png' alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="gallery4" class="hide-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <h1>掲示板</h1>
+                            <p>TECH I.S.の課題だけではLaravelを理解できないと感じ、簡単な掲示板を作成しました。<br>
+                                少しずつLaravelの書き方やCRUDにも少し慣れることができました。<br>
+                                今回の目的がLaravelの基礎的な部分のCRUDに慣れることだったので、ログイン機能は実装していません。
+                            </p>
+                            <div class="icon">
+                                
+                                <a href="https://github.com/kouheihayashi78/laravel_project" target="_blank"
+                                    rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <img src='img/todo_laravel.png' alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="gallery5" class="hide-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <h1>管理画面</h1>
+                            <p>Laravelをもっと詳しく知りたいと考え、Laravelで管理画面を作成しました。<br>
+                                投稿機能だけでなく、タグ機能を実装してリレーションやサービスプロバイダーなどの理解を深められました。<br>
+                                Laravelの便利さや楽しさにここで気づきました。
+                            </p>
+                            <div class="icon">
+                                
+                                <a href="https://github.com/kouheihayashi78/Laravel_management" target="_blank"
+                                    rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <img src='img/management2.png' alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="gallery6" class="hide-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <h1>Instagram風アプリ</h1>
+                            <p>TECH I.S.の課題でTwitterCloneを作成した時、Instagram風アプリを作成してみたいと考えていたので作成してみました。<br>
+                                今まで作ったものよりも複雑なので、タスクや情報の関係性を洗い出し、テーブル設計を行いました。
+                                Laravelは知れば知るほど奥が深いなと感じ、このタイミングでLaravelの青本に手を出しました。
+                            </p>
+                            <div class="icon">
+                                
+                                <a href="https://github.com/kouheihayashi78/InstagramClone" target="_blank"
+                                    rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <img src='img/instagram.png' alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="gallery7" class="hide-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <h1>メルカリ風アプリ</h1>
+                            <p>個人的にメルカリはよく使用しており、メルカリ風のアプリを作成したいと考え、<a href="https://www.techpit.jp/courses/139">t-kuni様</a>の教材を参考に作成しました。<br>
+                                Instagram風アプリを作成した時よりも複雑なテーブル設計や、今までやってこなかったER図の作図など現場での作業に少し近いことを体験できました。<br>
+                            </p>
+                            <div class="icon">
+                                
+                                <a href="https://github.com/kouheihayashi78/Laravel_mercari" target="_blank"
+                                    rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <img src='img/mercari.png' alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="gallery8" class="hide-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <h1>チーム開発</h1>
+                            <p>TECH I.S.のチーム開発課題の制作物です。<br>
+                                私たちの3人チームで取り組み、なかなかチーム開発にコミットできる時間がない方もおり現在も製作中で、完成予定としましては12/14(火)を予定しております。<br>
+                                講師の方もいろいろ考えてくださり、効率は悪いかも知れないけどフロントエンド、バックエンド、git、SQL等を役割ごとに分けず、全て触れていろいろ経験できるようにポジションを振り分けていただきました。<br>
+                                最初はチームでの開発に戸惑ったり、一人だけ進んでしまって進捗が遅い方に少しイラついたりもしましたが、現場に近い体験ができ、みんなで一丸となって一つのアプリを制作する難しさを転職する前に体験できたのはとても大きな学びになりました。
+                            </p>
+                            <div class="icon">
+                                
+                                <a href="https://github.com/NanaYamamoto/TWCP2" target="_blank"
+                                    rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <img src='img/team2.png' alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section id="box3" class="box" data-section-name="Skill">
+            <div class="box-area">
+                <h2 class="TextAnime">Skill</h2>
+                <p class="section-desc" data-aos="fade-in" data-aos-duration="700">
+                    TECH I.S.に入校し、身につけたスキルをまとめてみました。まだまだわからないところが多く、全体的に理解が浅いと認識しています。
+                    その中でも私の強みとしましては、幅広く対応できる点だと自負しております。バックエンドの業務に携わりたいと考えているので専門性をもっと高めていきたいと考えています。
+                </p>
+                <a href="skill.html" class="gradient4 blurTrigger">スキルを見る</a>
+            </div>
+        </section>
+
+        <section id="box4" class="box" data-section-name="Contact">
+            <div class="box-area" style="padding-top: 10rem;">
+                <h2 class="TextAnime">Contact</h2>
+                <a href="#form" class="gradient4 btn-view2 blurTrigger">送信フォーム</a>
+
+                <footer id="contact" class="footer text-center blurTrigger">
+                    <div class="container text-center">
+                        <ul class="list-inline mb-5">
+                            <!-- instagram -->
+                            <li class="list-inline-item"> <a class="social-link rounded-circle text-white mr-3"
+                                    href="https://www.instagram.com/Kouheihayashi78" target="”_blank”">
+                                    <i class="fab fa-instagram"></i>
+                                </a> </li>
+                            <!-- twitter -->
+                            <li class="list-inline-item"> <a class="social-link rounded-circle text-white mr-3"
+                                    href="https://twitter.com/kouheihayashi78" target="”_blank”">
+                                    <i class="fab fa-twitter"></i>
+                                </a> </li>
+                            <!-- git hub -->
+                            <li class="list-inline-item"> <a class="social-link rounded-circle text-white"
+                                    href="https://github.com/kouheihayashi78" target="”_blank”">
+                                    <i class="fab fa-github"></i>
+                                </a> </li>
+                        </ul>
+                    </div>
+                </footer>
+                <div class="copyright">
+                    <p class="portfolio">&copy KOUHEI PORTFOLIO</p>
+                </div>
+            </div>
+
+            <section id="form" class="hide-area">
+                <h3>お問い合わせ</h3>
+                <form method="post" action="" enctype="multipart/form-data">
+                    <ul class="form-list">
+                        <li>
+                            <dl>
+                                <dt><label for="name">お名前</label></dt>
+                                <dd><input type="text" name="Name" id="name" size="60" value="">
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><label for="email">メールアドレス</label></dt>
+                                <dd><input type="email" name="E-mail" id="email" size="60" value="">
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><label for="tel">電話番号</label></dt>
+                                <dd><input type="text" name="Tel" id="tel" size="60" value="">
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><label for="tel">年齢</label></dt>
+                                <dd><select name='age' id="age">
+                                        <option value='young'>10代</option>
+                                        <option value='young2'>20代</option>
+                                        <option value='young3'>30代</option>
+                                        <option value='middle'>40代</option>
+                                        <option value='middle2'>50代</option>
+                                        <option value='senior'>60代以上</option>
+                                    </select>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><label for="msg">内容</label></dt>
+                                <dd><textarea name="Message" id="msg" cols="50" rows="5"></textarea>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+
+                    <div class="submit-btn"><input type="submit" name="submit" value="送信"></div>
+                </form>
+            </section>
+
+        </section>
+    </main>
+
+    <!--=============JS ===============-->
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!--プログレスバー＋数字カウントアップ＋画面が開く-->
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
+    <!--スクロールすると1画面移動-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js"></script>
+    <!--横に画像が移動する-->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!--AOS.js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--自作のJS-->
+    <script src="js/script.js"></script>
+    <script>
+        AOS.init()
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,210 @@
+body {
+    background: url("../img/bg_patt.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.section .inner {
+    padding: 80px 10px 10px 0px;
+}
+
+.section .section-title-block {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section .section-title {
+    letter-spacing: -0.01em;
+    display: inline-block;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.section .section-desc {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*--------------------------------
+SKILL
+---------------------------------*/
+
+#skill .card-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#skill .card {
+    flex-basis: 46%;
+    margin-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#skill .skill-icon {
+    flex-basis: 75px;
+}
+
+#skill .skill-icon img {
+    width: 75px;
+}
+
+#skill .skill-desc {
+    flex-basis: calc(100% - 75px - 30px);
+    text-align: center;
+}
+
+#skill .skill-desc-title {
+    margin-bottom: 3px;
+    font-size: 26px;
+    padding: 24px;
+    font-weight: bold;
+}
+
+#skill .skill-desc-title i {
+    margin-right: 12px;
+}
+
+#skill .rate {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 20px;
+    font-size: 20px;
+}
+
+#skill .rate:before, #skill .rate:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '★★★★★';
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+
+#skill .rate:before {
+    color: #ddd;
+}
+
+#skill .rate:after {
+    color: #808080;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#skill .rate1:after {
+    width: 20px;
+}
+
+#skill .rate2:after {
+    width: 40px;
+}
+
+#skill .rate3:after {
+    width: 60px;
+}
+
+#skill .rate4:after {
+    width: 80px;
+}
+
+#skill .rate5:after {
+    width: 100px;
+}
+
+.skill-desc p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* 戻るボタン：ホバー時 */
+
+button:hover, [type="button"]:hover {
+    cursor: pointer;
+    border-color: transparent;
+    background: linear-gradient(0.25turn, #f69d3c, #ebf8e1, #00abae);
+    background-size: 200% auto;
+    background-position: right center;
+    box-shadow: 0 5px 10px #f69d3c;
+}
+
+.section-title-css {
+    margin-left: 12px;
+}
+
+.table {
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+    .section .inner {
+        padding: 30px 15px;
+    }
+    .section .section-title-block {
+        margin-bottom: 10px;
+    }
+    .section .section-title {
+        font-size: 36px;
+    }
+    #skill .card-wrapper {
+        width: 100%;
+    }
+    #skill .card {
+        flex-basis: 100%;
+    }
+    #skill .skill-icon {
+        flex-basis: 45px;
+    }
+    #skill .skill-icon img {
+        width: 45px;
+    }
+    #skill .skill-desc {
+        flex-basis: calc(100% - 45px - 10px);
+    }
+    #skill .rate {
+        height: 15px;
+        font-size: 15px;
+    }
+    #skill .rate:before, #skill .rate:after {
+        height: 15px;
+        line-height: 15px;
+    }
+    #skill .rate1:after {
+        width: 15px;
+    }
+    #skill .rate2:after {
+        width: 30px;
+    }
+    #skill .rate3:after {
+        width: 45px;
+    }
+    #skill .rate4:after {
+        width: 60px;
+    }
+    #skill .rate5:after {
+        width: 75px;
+    }
+}
