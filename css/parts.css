@@ -251,7 +251,7 @@
     background-image: url("../img/03-light-carpet.png");
     background-repeat: repeat;
     background-attachment: fixed;
-    max-height: 717px;
+    max-height: 789px;
 }
 
 #box3 {
@@ -282,9 +282,6 @@
     }
     #box4 {
         align-items: flex-start;
-    }
-    .pagination{
-        top: 30%;
     }
 }
 @media screen and (max-width: 480px) {
