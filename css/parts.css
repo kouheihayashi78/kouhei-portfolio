@@ -1,6 +1,6 @@
 @charset "utf-8";
-
 /* Loading背景画面設定 (プログレスバー＋数字カウントアップ＋画面が開く)*/
+
 #splash {
     /*fixedで全面に固定*/
     position: fixed;
@@ -28,6 +28,7 @@
 }
 
 /*画面のアニメーション*/
+
 .loader_cover {
     width: 100%;
     height: 50%;
@@ -37,11 +38,13 @@
 }
 
 /*上画面*/
+
 .loader_cover-up {
     transform-origin: center top;
 }
 
 /*下画面*/
+
 .loader_cover-down {
     position: absolute;
     bottom: 0;
@@ -49,15 +52,16 @@
 }
 
 /*クラス名がついたらカバーを見えなくする*/
+
 .coveranime {
     transform: scaleY(0);
 }
-
 
 /* 
 ローカルではこのコードで綺麗に配置できているが、スマホで確認すると
 メニュートーグルの位置が真ん中によっている為、コメントアウト
 */
+
 /* @media screen and (max-width:786px) {
     #splash_text{
         top: 30%;
@@ -88,10 +92,10 @@
     }
 } */
 
-
-
 /*===========================================================*/
+
 /*グラデーション*/
+
 /*===========================================================*/
 
 .gradient4 {
@@ -124,7 +128,9 @@
 }
 
 /*===========================================================*/
+
 /*ゆっくりズームアウトさせながら全画面で見せる*/
+
 /*===========================================================*/
 
 #slider {
@@ -134,13 +140,14 @@
 }
 
 /*===========================================================*/
+
 /*リンクをクリックすると、背景が暗くなり動画や画像やテキストを表示*/
+
 /*===========================================================*/
 
 .modaal-overlay {
     background: linear-gradient(45deg, #f69c3cc0, #00abaed5)!important;
 }
-
 
 .hide-area {
     display: none;
@@ -158,6 +165,7 @@
 }
 
 /*クローズボタンの×の色変更*/
+
 .modaal-close:focus:after, .modaal-close:focus:before, .modaal-close:hover:after, .modaal-close:hover:before {
     background: #666;
 }
@@ -166,7 +174,6 @@
     display: block;
     padding: 10px 0;
 }
-
 
 .modaal-content-container img {
     border: 1px solid #c8c8c8;
@@ -181,6 +188,7 @@
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
+
 .modaal-content-container a:hover {
     color: rgba(0, 0, 0, 0.200);
     text-decoration: none;
@@ -212,7 +220,9 @@
 }
 
 /*===========================================================*/
+
 /* テキストが1文字づつ出現*/
+
 /*===========================================================*/
 
 .TextAnime span {
@@ -233,7 +243,9 @@
 }
 
 /*===========================================================*/
+
 /*スクロールすると1画面移動*/
+
 /*===========================================================*/
 
 .box {
@@ -264,9 +276,11 @@
 #box3 {
     background: #00abae;
 }
+
 #box3 h2 {
     color: #fff;
 }
+
 #box4 {
     background-image: url(../img/03-light-carpet.png);
     background-repeat: repeat;
@@ -291,12 +305,13 @@
         align-items: flex-start;
     }
 }
+
 @media screen and (max-width: 480px) {
     .box {
         height: 100vh;
         max-height: 812px;
     }
-    #box4{
+    #box4 {
         max-height: none;
     }
 }
@@ -359,7 +374,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .pagination{
+    .pagination {
         top: 30%;
     }
     .pagination a .hover-text {
@@ -404,7 +419,7 @@
         top: -300px;
         right: -154px;
         width: 735px;
-        transform:rotate(25deg);
+        transform: rotate(25deg);
     }
 }
 
@@ -434,10 +449,10 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 350px;
-    height: 350px;
+    width: 380px;
+    height: 380px;
     margin-top: -400px;
-    margin-left: 300px;
+    margin-left: 320px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     border-radius: 50%;
@@ -470,7 +485,7 @@
 @media (max-width: 768px) {
     .top-header__deco {
         transform: rotate( 25deg);
-        margin-top: -260px;
+        margin-top: -280px;
         margin-left: -200px;
         border-top-width: 380px;
         border-right-width: 219px;
@@ -479,7 +494,7 @@
     .top-header__deco:after {
         width: 300px;
         height: 300px;
-        margin-top: -470px;
+        margin-top: -500px;
         margin-left: 315px;
     }
 }
@@ -502,7 +517,9 @@
 }
 
 /*===========================================================*/
+
 /*about*/
+
 /*===========================================================*/
 
 #about {
@@ -578,7 +595,6 @@
     #about {
         height: 100vh;
     }
-
     #about .person {
         display: flex;
         justify-content: center;
@@ -587,22 +603,18 @@
         width: 90%;
         margin: auto;
     }
-
     #about .person img {
         width: 300px;
     }
-
     #about .contents {
         padding: 15px;
-            color: #fff;
-            width: 90%;
-            margin: auto;
+        color: #fff;
+        width: 90%;
+        margin: auto;
     }
-
     #about .contents {
         padding: 0;
     }
-
     #about li {
         font-size: 15px;
     }
@@ -639,7 +651,9 @@
 }
 
 /*===========================================================*/
+
 /*work*/
+
 /*===========================================================*/
 
 .box-area>.picup {
@@ -647,6 +661,7 @@
 }
 
 /*========= 画像が横にスライドする ===============*/
+
 .slider_width {
     /*左右に少し余白を持たせて中央寄せ*/
     width: 94%;
@@ -657,7 +672,6 @@
     width: 35vw;
     height: auto;
 }
-
 
 .slider_width .slick-slide {
     transform: scale(0.8);
@@ -676,6 +690,7 @@
 }
 
 /*========= 矢印の設定 ===============*/
+
 /*========= 戻る、次へ矢印の位置 ===============*/
 
 .slick-prev, .slick-next {
@@ -701,6 +716,7 @@
 }
 
 /*========= ドットナビゲーションの設定 ===============*/
+
 .slick-dots {
     text-align: center;
     margin: 30px 0 0 0;
@@ -725,22 +741,20 @@
     background: #333;
 }
 
-
 @media screen and (max-width: 786px) {
     .slider_width img {
         width: 42vh;
     }
 }
+
 @media screen and (max-width: 480px) {
     .slider_width img {
         width: 33vh;
         height: 33vh;
     }
-
     .slick-prev {
         left: -5.5%;
     }
-    
     .slick-next {
         right: -5.5%;
     }
@@ -762,7 +776,7 @@
 }
 
 @media screen and (max-width:480px) {
-    .row > .col-4, .col-8{
+    .row>.col-4, .col-8 {
         width: unset;
     }
     .icon {
@@ -771,7 +785,9 @@
 }
 
 /*===========================================================*/
+
 /*skill*/
+
 /*===========================================================*/
 
 .section-desc {
@@ -788,7 +804,6 @@
         font-size: 1.0rem;
     }
 }
-
 
 /*========= メニュートーグル ===============*/
 
@@ -824,7 +839,6 @@ nav ul li a {
     letter-spacing: 0.1em;
     color: black;
 }
-
 
 .cf {
     zoom: 1;
@@ -933,6 +947,7 @@ nav ul li a {
 ローカルではこのコードで綺麗に配置できているが、スマホで確認すると
 メニュートーグルの位置が真ん中によっている為、コメントアウト
 */
+
 /* @media screen and (max-width: 786px) {
     .menu-toggle {
         right: 195px;
@@ -977,7 +992,6 @@ footer.footer .social-link:hover {
     display: inline-block;
 }
 
-
 .copyright {
     position: relative;
 }
@@ -996,6 +1010,7 @@ footer.footer .social-link:hover {
         top: 80px;
     }
 }
+
 @media screen and (max-width: 480px) {
     .portfolio {
         top: 70px;
