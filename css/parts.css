@@ -523,8 +523,8 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 80%;
-    padding-left: 70px;
+    width: 75%;
+    padding-left: 75px;
     margin: auto;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
@@ -775,11 +775,11 @@
 /*===========================================================*/
 
 .section-desc {
-    width: 70%;
+    width: 65%;
     margin: 30px auto;
     color: #fff;
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 @media screen and (max-width: 480px) {
