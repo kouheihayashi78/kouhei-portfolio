@@ -376,6 +376,7 @@
     right: -154px;
     width: 770px;
     height: 200px;
+    overflow: hidden;
     z-index: 9;
     background-color: #e8515170;
     -webkit-transform: rotate(15deg);
@@ -920,16 +921,7 @@ nav ul li a {
 .menu-toggle:hover {
     background: #343a40
 }
-@media screen and (max-width: 786px) {
-    .menu-toggle {
-        right: 195px;
-    }
-}
-@media screen and (max-width: 480px) {
-    .menu-toggle {
-        right: 220px;
-    }
-}
+
 
 /*========= footer ===============*/
 
