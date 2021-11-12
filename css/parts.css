@@ -53,7 +53,12 @@
     transform: scaleY(0);
 }
 
-@media screen and (max-width:786px) {
+
+/* 
+ローカルではこのコードで綺麗に配置できているが、スマホで確認すると
+メニュートーグルの位置が真ん中によっている為、コメントアウト
+*/
+/* @media screen and (max-width:786px) {
     #splash_text{
         top: 30%;
         
@@ -81,7 +86,9 @@
     .loader_cover-down{
         height: 72%;
     }
-}
+} */
+
+
 
 /*===========================================================*/
 /*グラデーション*/
@@ -922,6 +929,20 @@ nav ul li a {
     background: #343a40
 }
 
+/* 
+ローカルではこのコードで綺麗に配置できているが、スマホで確認すると
+メニュートーグルの位置が真ん中によっている為、コメントアウト
+*/
+/* @media screen and (max-width: 786px) {
+    .menu-toggle {
+        right: 195px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .menu-toggle {
+        right: 220px;
+    }
+}  */
 
 /*========= footer ===============*/
 

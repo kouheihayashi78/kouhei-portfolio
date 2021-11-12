@@ -192,19 +192,7 @@ $(body).on('load', function () {
 });
 
 /* スムーズスクロール */
-$(function () {
-	$('.js-scroll-trigger').click(function () {
-		$('.menu-toggle .rounded-circle .active').removeClass("active")
-		$('#sidebar-wrapper .active').removeClass("active")
-		$(".menu-toggle .active > .fa-bars, .menu-toggle > .fa-times").removeClass("fa-bars fa-times")
-		var speed = 500; // 0.5秒
-		var href = $(this).attr("href");
-		var target = $(href == "#" || href == "" ? 'html' : href);
-		var position = target.offset().top;
-		$('html').animate({ scrollTop: position }, speed, 'swing');
-		return false;
-	});
-});
+
 
 /* workのモーダルウィンドウ */
 $(function () {
