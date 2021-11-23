@@ -196,6 +196,11 @@
     transition-duration: 0.3s;
 }
 
+.modaal-content-container span {
+    color: #00abaea8;
+    text-decoration: none;
+}
+
 .blur {
     animation-name: blurAnime;
     animation-duration: 1s;
